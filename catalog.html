@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220319124631">
+    <title>Catalog</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container">
+        <div class="header__body" id="header">
+            <a class="header__logo" href="index.html"></a>
+            <div class="header__menu menu-header">
+                <nav class="menu-header__body menu">
+                    <ul class="menu-header__list">
+                        <li class="menu-header__item menu-header__item-spoller" data-spollers>
+                            <div class="menu-header__spollers spollers-header">
+                                <button class="spollers-header__arrow _icon-arrow-bottom" data-spoller
+                                    type="button">Products</button>
+                                <div class="spollers-header__body">
+                                    <nav class="spollers-header__sub">
+                                        <ul class="spollers-header__sub-list">
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">New For 2021</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Guitar/Bass Finder</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Guitars</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Basses</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">ESP USA</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Acoustics (Outside USA
+                                                    Only)</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Takamine Acoustics</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Model Clearance Sale</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Dealer Exclusives</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Cases</a>
+                                            </li>
+                                            <li class="spollers-header__sub-item">
+                                                <a class="spollers-header__sub-link" href="#">Apparel & Accessories</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-header__item"><a class="menu-header__link" href="catalog.html">Custom shop</a></li>
+                        <li class="menu-header__item"><a class="menu-header__link" href="#">News</a></li>
+                        <li class="menu-header__item"><a class="menu-header__link" href="#">Media</a></li>
+                        <li class="menu-header__item"><a class="menu-header__link" href="#">Dealers</a></li>
+                        <li class="menu-header__item"><a class="menu-header__link" href="#">Artists</a></li>
+                        <li class="menu-header__item"><a class="menu-header__link" href="#">Community</a></li>
+                        <li class="menu-header__item"><a class="menu-header__link" href="#">Careers</a></li>
+                        <li class="menu-header__item"><a class="menu-header__link" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__search">
+                    <div class="search-form">
+                        <button class="search-form__icon _icon-search" type="button"></button>
+                        <form class="search-form__item" action="#">
+                            <button class="search-form__btn _icon-search" type="submit"></button>
+                            <input class="search-form__input" autocomplete="off" type="text" name="form[]"
+                                placeholder="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <a class="header__cart cart-header _icon-cart popup-link" href="#popup-cart">
+                <div class="cart-header__text"><span>3</span> products - <span class="cart-header__price">$3,740</span>
+                </div>
+            </a>
+            <button type="button" class="menu__icon icon-menu"><span></span></button>
+        </div>
+    </div>
+</header>
+        <main class="page page_inner">
+            <section class="catalog__top top-catalog">
+                <div class="top-catalog__container">
+                    <div class="top-catalog__content content-top-catalog">
+                        <h1 class="content-top-catalog__title">Guitars</h1>
+                        <div class="content-top-catalog__text">
+                            <p>
+                                Guitars are our passion. Since 1975, ESP has created numerous iconic instruments for
+                                legendary players spanning every genre of music. Our decades of experience in the design
+                                and manufacture of guitars and basses has allowed us to provide the very best options
+                                for you as a player.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="catalog">
+                <div class="catalog__container">
+                    <div class="catalog__body">
+                        <div class="catalog__filter filter-catalog">
+                            <button class="filter-catalog__title _icon-show-filter" type="button">Filter</button>
+                            <div class="filter-catalog__items" data-spollers>
+                                <div class="filter-catalog__price price-filter">
+                                    <button class="price-filter__title _icon-arrow-bottom" type="button"
+                                        data-spoller>Price</button>
+                                    <div class="price-filter__body">
+                                        <div class="price-filter__values values-price-filter">
+                                            <div class="values-price-filter__input">
+                                                <input class="input" id="price-start" autocomplete="off" type="text"
+                                                    name="form[]">
+                                            </div>
+                                            <div class="values-price-filter__input">
+                                                <input class="input" id="price-end" autocomplete="off" type="text"
+                                                    name="form[]">
+                                            </div>
+                                        </div>
+                                        <div class="price-filter__slider"></div>
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__item item-filter-catalog">
+                                    <button class="item-filter-catalog__title _icon-arrow-bottom" type="button"
+                                        data-spoller>Orientation</button>
+                                    <div class="item-filter-catalog__body">
+                                        <div class="item-filter-catalog__radio radio">
+                                            <input class="radio__input" id="r_1" type="radio" name="1">
+                                            <label class="radio__label" for="r_1"><span class="radio__text">Right
+                                                    Handed<small>(342)</small></span></label>
+                                        </div>
+                                        <div class="item-filterradio__radio radio">
+                                            <input class="radio__input" id="r_2" type="radio" name="1">
+                                            <label class="radio__label" for="r_2"><span class="radio__text">Left
+                                                    Handed<small>(37)</small></span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__item item-filter-catalog">
+                                    <button class="item-filter-catalog__title _icon-arrow-bottom" type="button"
+                                        data-spoller>Body shape</button>
+                                    <div class="item-filter-catalog__body">
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_1" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_1"><span class="checkbox__text">EC
+                                                    <small>(66)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_2" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_2"><span class="checkbox__text">EC
+                                                    Full Thickness<small>(17)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_3" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_3"><span
+                                                    class="checkbox__text">EX<small>(4)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_4" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_4"><span class="checkbox__text">F
+                                                    <small>(5)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_5" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_5"><span class="checkbox__text">FRX
+                                                    <small>(7)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_6" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_6"><span class="checkbox__text">H
+                                                    <small>(42)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_7" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_7"><span class="checkbox__text">H3
+                                                    <small>(5)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_8" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_8"><span class="checkbox__text">M
+                                                    <small>(53)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_9" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_9"><span class="checkbox__text">MH
+                                                    <small>(6)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="c_10" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="c_10"><span
+                                                    class="checkbox__text">Mystique<small>(3)</small></span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__item item-filter-catalog">
+                                    <button class="item-filter-catalog__title _icon-arrow-bottom" type="button"
+                                        data-spoller>Number of strings</button>
+                                    <div class="item-filter-catalog__body">
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="n_1" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="n_1"><span class="checkbox__text">EC
+                                                    <small>(66)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="n_2" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="n_2"><span class="checkbox__text">EC
+                                                    Full Thickness<small>(17)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="n_3" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="n_3"><span
+                                                    class="checkbox__text">EX<small>(4)</small></span></label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__item item-filter-catalog">
+                                    <button class="item-filter-catalog__title _icon-arrow-bottom" type="button"
+                                        data-spoller>Construction</button>
+                                    <div class="item-filter-catalog__body">
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="s_1" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="s_1"><span class="checkbox__text">EC
+                                                    <small>(66)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="s_2" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="s_2"><span class="checkbox__text">EC
+                                                    Full Thickness<small>(17)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="s_3" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="s_3"><span
+                                                    class="checkbox__text">EX<small>(4)</small></span></label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__item item-filter-catalog">
+                                    <button class="item-filter-catalog__title _icon-arrow-bottom" type="button"
+                                        data-spoller>Scale</button>
+                                    <div class="item-filter-catalog__body">
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="l_1" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="l_1"><span class="checkbox__text">EC
+                                                    <small>(66)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="l_2" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="l_2"><span class="checkbox__text">EC
+                                                    Full Thickness<small>(17)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="l_3" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="l_3"><span
+                                                    class="checkbox__text">EX<small>(4)</small></span></label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__item item-filter-catalog">
+                                    <button class="item-filter-catalog__title _icon-arrow-bottom" type="button"
+                                        data-spoller>Bridge type</button>
+                                    <div class="item-filter-catalog__body">
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="b_1" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="b_1"><span class="checkbox__text">EC
+                                                    <small>(66)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="b_2" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="b_2"><span class="checkbox__text">EC
+                                                    Full Thickness<small>(17)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="b_3" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="b_3"><span
+                                                    class="checkbox__text">EX<small>(4)</small></span></label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__item item-filter-catalog">
+                                    <button class="item-filter-catalog__title _icon-arrow-bottom" type="button"
+                                        data-spoller>Electronics</button>
+                                    <div class="item-filter-catalog__body">
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="e_1" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="e_1"><span class="checkbox__text">EC
+                                                    <small>(66)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="e_2" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="e_2"><span class="checkbox__text">EC
+                                                    Full Thickness<small>(17)</small></span></label>
+                                        </div>
+                                        <div class="item-filter-catalog__checkbox checkbox">
+                                            <input class="checkbox__input" id="e_3" type="checkbox" value="1">
+                                            <label class="checkbox__label" for="e_3"><span
+                                                    class="checkbox__text">EX<small>(4)</small></span></label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__content">
+                            <div class="catalog__control">
+                                <div class="catalog__control-title">Sort by:</div>
+                                <div class="dropdown">
+                                    <button class="dropdown__button _icon-arrow-bottom">Popular</button>
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__list-item" data-value="1">Popular</li>
+                                        <li class="dropdown__list-item" data-value="2">Latest</li>
+                                        <li class="dropdown__list-item" data-value="3">Oldest</li>
+                                        <li class="dropdown__list-item" data-value="4">Price low</li>
+                                        <li class="dropdown__list-item" data-value="5">Price high</li>
+                                    </ul>
+                                    <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+                                </div>
+                            </div>
+                            <div class="catalog__products">
+                                <article class="product-card">
+                                    <a class="product-card__image-ibg product-card__image-ibg_contain" href="product.html">
+                                        <picture><source srcset="img/catalog-page/product/01.webp" type="image/webp"><img src="img/catalog-page/product/01.png" alt="Картинка"></picture>
+                                    </a>
+                                    <div class="product-card__body">
+                                        <h4 class="product-card__title">
+                                            <a class="product-card__link-title" href="#">Will Adler Warbird
+                                                Distressed</a>
+                                            <div class="product-card__price">$3,570</div>
+                                        </h4>
+                                        <div class="product-card__info info-product-card">
+                                            <div class="info-product-card__color">Black w/Graphic</div>
+                                            <div class="product-card__rating rating rating_set rating-product-card">
+                                                <div class="rating-product-card__body">
+                                                    <div class="rating-product-card__active rating__active"></div>
+                                                    <div class="rating-product-card__items">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="1"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="2"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="3"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="4"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="5"
+                                                            name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating-product-card__value rating__value">2.5</div>
+                                                <div class="rating-product-card__info">109 reviews</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__table table-product">
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Construction</div>
+                                                <div class="table-product__value">Neck-Thru</div>
+                                                <div class="table-product__label">Scale</div>
+                                                <div class="table-product__value">24.75"</div>
+                                                <div class="table-product__label">Body</div>
+                                                <div class="table-product__value">Mahogany</div>
+                                            </div>
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Frets/Type</div>
+                                                <div class="table-product__value">22 XJ</div>
+                                                <div class="table-product__label">Strap button</div>
+                                                <div class="table-product__value">Standard</div>
+                                                <div class="table-product__label">Electronics</div>
+                                                <div class="table-product__value">Passive</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__buttons">
+                                            <button class="product-card__cart button_border" type="button">Buy in one
+                                                click</button>
+                                            <button class="product-card__cart button" type="button">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="product-card">
+                                    <a class="product-card__image-ibg product-card__image-ibg_contain" href="product.html">
+                                        <picture><source srcset="img/catalog-page/product/02.webp" type="image/webp"><img src="img/catalog-page/product/02.png" alt="Картинка"></picture>
+                                    </a>
+                                    <div class="product-card__body">
+                                        <h4 class="product-card__title">
+                                            <a class="product-card__link-title" href="#">E-II HORIZON FR</a>
+                                            <div class="product-card__price">$2,500</div>
+                                        </h4>
+                                        <div class="product-card__info info-product-card">
+                                            <div class="info-product-card__color">Reindeer Blue</div>
+                                            <div class="product-card__rating rating rating_set rating-product-card">
+                                                <div class="rating-product-card__body">
+                                                    <div class="rating-product-card__active rating__active"></div>
+                                                    <div class="rating-product-card__items">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="1"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="2"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="3"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="4"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="5"
+                                                            name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating-product-card__value rating__value">2.5</div>
+                                                <div class="rating-product-card__info">109 reviews</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__table table-product">
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Construction</div>
+                                                <div class="table-product__value">Set-Thru</div>
+                                                <div class="table-product__label">Scale</div>
+                                                <div class="table-product__value">25.5"</div>
+                                                <div class="table-product__label">Body</div>
+                                                <div class="table-product__value">Mahogany</div>
+                                            </div>
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Frets/Type</div>
+                                                <div class="table-product__value">24 XJ</div>
+                                                <div class="table-product__label">Strap button</div>
+                                                <div class="table-product__value">Dunlop</div>
+                                                <div class="table-product__label">Electronics</div>
+                                                <div class="table-product__value">Passive</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__buttons">
+                                            <button class="product-card__cart button_border" type="button">Buy in one
+                                                click</button>
+                                            <button class="product-card__cart button" type="button">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="product-card">
+                                    <a class="product-card__image-ibg product-card__image-ibg_contain" href="product.html">
+                                        <picture><source srcset="img/catalog-page/product/03.webp" type="image/webp"><img src="img/catalog-page/product/03.png" alt="Картинка"></picture>
+                                    </a>
+                                    <div class="product-card__body">
+                                        <h4 class="product-card__title">
+                                            <a class="product-card__link-title" href="#">LTD IRON CROSS</a>
+                                            <div class="product-card__price">$3,500</div>
+                                        </h4>
+                                        <div class="product-card__info info-product-card">
+                                            <div class="info-product-card__color">Snow White</div>
+                                            <div class="product-card__rating rating rating_set rating-product-card">
+                                                <div class="rating-product-card__body">
+                                                    <div class="rating-product-card__active rating__active"></div>
+                                                    <div class="rating-product-card__items">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="1"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="2"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="3"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="4"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="5"
+                                                            name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating-product-card__value rating__value">2.5</div>
+                                                <div class="rating-product-card__info">109 reviews</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__table table-product">
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Construction</div>
+                                                <div class="table-product__value">Neck-Thru</div>
+                                                <div class="table-product__label">Scale</div>
+                                                <div class="table-product__value">24.75"</div>
+                                                <div class="table-product__label">Body</div>
+                                                <div class="table-product__value">Mahogany</div>
+                                            </div>
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Frets/Type</div>
+                                                <div class="table-product__value">22 XJ</div>
+                                                <div class="table-product__label">Strap button</div>
+                                                <div class="table-product__value">Standard</div>
+                                                <div class="table-product__label">Electronics</div>
+                                                <div class="table-product__value">Passive</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__buttons">
+                                            <button class="product-card__cart button_border" type="button">Buy in one
+                                                click</button>
+                                            <button class="product-card__cart button" type="button">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="product-card">
+                                    <a class="product-card__image-ibg product-card__image-ibg_contain" href="product.html">
+                                        <picture><source srcset="img/catalog-page/product/04.webp" type="image/webp"><img src="img/catalog-page/product/04.png" alt="Картинка"></picture>
+                                    </a>
+                                    <div class="product-card__body">
+                                        <h4 class="product-card__title">
+                                            <a class="product-card__link-title" href="#">E-II M-II</a>
+                                            <div class="product-card__price">$3,700</div>
+                                        </h4>
+                                        <div class="product-card__info info-product-card">
+                                            <div class="info-product-card__color">See Thru Black</div>
+                                            <div class="product-card__rating rating rating_set rating-product-card">
+                                                <div class="rating-product-card__body">
+                                                    <div class="rating-product-card__active rating__active"></div>
+                                                    <div class="rating-product-card__items">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="1"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="2"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="3"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="4"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="5"
+                                                            name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating-product-card__value rating__value">2.5</div>
+                                                <div class="rating-product-card__info">109 reviews</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__table table-product">
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Construction</div>
+                                                <div class="table-product__value">Neck-Thru</div>
+                                                <div class="table-product__label">Scale</div>
+                                                <div class="table-product__value">25.5"</div>
+                                                <div class="table-product__label">Body</div>
+                                                <div class="table-product__value">Mahogany</div>
+                                            </div>
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Frets/Type</div>
+                                                <div class="table-product__value">22 XJ</div>
+                                                <div class="table-product__label">Strap button</div>
+                                                <div class="table-product__value">Dunlop</div>
+                                                <div class="table-product__label">Electronics</div>
+                                                <div class="table-product__value">Active</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__buttons">
+                                            <button class="product-card__cart button_border" type="button">Buy in one
+                                                click</button>
+                                            <button class="product-card__cart button" type="button">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="product-card">
+                                    <a class="product-card__image-ibg product-card__image-ibg_contain" href="product.html">
+                                        <picture><source srcset="img/catalog-page/product/05.webp" type="image/webp"><img src="img/catalog-page/product/05.png" alt="Картинка"></picture>
+                                    </a>
+                                    <div class="product-card__body">
+                                        <h4 class="product-card__title">
+                                            <a class="product-card__link-title" href="#">ARROW BLACK METAL</a>
+                                            <div class="product-card__price">$3,400</div>
+                                        </h4>
+                                        <div class="product-card__info info-product-card">
+                                            <div class="info-product-card__color">Black Satin</div>
+                                            <div class="product-card__rating rating rating_set rating-product-card">
+                                                <div class="rating-product-card__body">
+                                                    <div class="rating-product-card__active rating__active"></div>
+                                                    <div class="rating-product-card__items">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="1"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="2"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="3"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="4"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="5"
+                                                            name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating-product-card__value rating__value">2.5</div>
+                                                <div class="rating-product-card__info">109 reviews</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__table table-product">
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Construction</div>
+                                                <div class="table-product__value">Neck-Thru</div>
+                                                <div class="table-product__label">Scale</div>
+                                                <div class="table-product__value">24.75"</div>
+                                                <div class="table-product__label">Body</div>
+                                                <div class="table-product__value">Mahogany</div>
+                                            </div>
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Frets/Type</div>
+                                                <div class="table-product__value">22 XJ</div>
+                                                <div class="table-product__label">Strap button</div>
+                                                <div class="table-product__value">Standard</div>
+                                                <div class="table-product__label">Electronics</div>
+                                                <div class="table-product__value">Passive</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__buttons">
+                                            <button class="product-card__cart button_border" type="button">Buy in one
+                                                click</button>
+                                            <button class="product-card__cart button" type="button">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="product-card">
+                                    <a class="product-card__image-ibg product-card__image-ibg_contain" href="product.html">
+                                        <picture><source srcset="img/catalog-page/product/06.webp" type="image/webp"><img src="img/catalog-page/product/06.png" alt="Картинка"></picture>
+                                    </a>
+                                    <div class="product-card__body">
+                                        <h4 class="product-card__title">
+                                            <a class="product-card__link-title" href="#">KH-WZ</a>
+                                            <div class="product-card__price">$3,500</div>
+                                        </h4>
+                                        <div class="product-card__info info-product-card">
+                                            <div class="info-product-card__color">Black W/Graphic</div>
+                                            <div class="product-card__rating rating rating_set rating-product-card">
+                                                <div class="rating-product-card__body">
+                                                    <div class="rating-product-card__active rating__active"></div>
+                                                    <div class="rating-product-card__items">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="1"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="2"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="3"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="4"
+                                                            name="rating">
+                                                        <input class="rating-product-card__item rating__item" type="radio" value="5"
+                                                            name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating-product-card__value rating__value">2.5</div>
+                                                <div class="rating-product-card__info">109 reviews</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__table table-product">
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Construction</div>
+                                                <div class="table-product__value">Neck-Thru</div>
+                                                <div class="table-product__label">Scale</div>
+                                                <div class="table-product__value">24.75"</div>
+                                                <div class="table-product__label">Body</div>
+                                                <div class="table-product__value">Mahogany</div>
+                                            </div>
+                                            <div class="table-product__item">
+                                                <div class="table-product__label">Frets/Type</div>
+                                                <div class="table-product__value">22 XJ</div>
+                                                <div class="table-product__label">Strap button</div>
+                                                <div class="table-product__value">Standard</div>
+                                                <div class="table-product__label">Electronics</div>
+                                                <div class="table-product__value">Passive</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card__buttons">
+                                            <button class="product-card__cart button_border" type="button">Buy in one
+                                                click</button>
+                                            <button class="product-card__cart button" type="button">Add to cart</button>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="catalog__footer">
+                                <div class="catalog__pagging pagging">
+                                    <button class="pagging__button-prev button button_border"
+                                        type="button">Previous</button>
+                                    <ul class="pagging__list">
+                                        <li class="pagging__item">
+                                            <a class="pagging__link" href="#">1</a>
+                                        </li>
+                                        <li class="pagging__item">
+                                            <a class="pagging__link _active" href="#">2</a>
+                                        </li>
+                                        <li class="pagging__item">
+                                            <a class="pagging__link" href="#">3</a>
+                                        </li>
+                                        <li class="pagging__item">
+                                            <a class="pagging__link" href="#">4</a>
+                                        </li>
+                                        <li class="pagging__item">
+                                            <a class="pagging__link" href="#">...</a>
+                                        </li>
+                                        <li class="pagging__item">
+                                            <a class="pagging__link" href="#">12</a>
+                                        </li>
+                                    </ul>
+                                    <button class="pagging__button-next button" type="button">Next</button>
+                                </div>
+                                <div class="catalog__control">
+                                    <div class="dropdown catalog-footer">
+                                        <button class="dropdown__button _icon-arrow-bottom">Show last 6</button>
+                                        <ul class="dropdown__list catalog-footer__list">
+                                            <li class="dropdown__list-item" data-value="1">Show last 6</li>
+                                            <li class="dropdown__list-item" data-value="1">Show last 12</li>
+                                            <li class="dropdown__list-item" data-value="2">Show last 24</li>
+                                            <li class="dropdown__list-item" data-value="3">Show last 48</li>
+                                        </ul>
+                                        <input type="text" name="select-category" value=""
+                                            class="dropdown__input-hidden">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__body">
+            <div class="footer__logo logo">
+                <a class="logo__link" href="#"></a>
+            </div>
+            <div class="footer__content">
+                <div class="footer__products products-footer">
+                    <div class="products-footer__spollers" data-spollers="767.98">
+                        <div class="products-footer__spollers-item">
+                            <button class="products-footer__spollers-title" type="button" data-spoller>Products</button>
+                            <div class="products-footer__spollers-body">
+                                <nav class="products-footer__sub">
+                                    <ul class="products-footer__sub-list">
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">New For 2021</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Guitar/Bass Finder</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Guitars</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Basses</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">ESP USA</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Acoustics (Outside USA
+                                                Only)</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Takamine Acoustics</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Model Clearance Sale</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Dealer Exclusives</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Cases</a>
+                                        </li>
+                                        <li class="products-footer__sub-item">
+                                            <a class="products-footer__sub-link" href="#">Apparel & Accessories</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__sitemap sitemap-footer">
+                    <div class="sitemap-footer__spollers" data-spollers="767.98">
+                        <div class="sitemap-footer__spollers-item">
+                            <button class="sitemap-footer__spollers-title" type=" button" data-spoller>Contact</button>
+                            <div class="sitemap-footer__spollers-body">
+                                <div class="sitemap-footer__spollers-text">
+                                    <p>The ESP Guitar Company, 10913</p>
+                                    <p>Vanowen Street, North</p>
+                                    <p>Hollywood, CA 91605 USA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sitemap-footer__spollers" data-spollers="767.98">
+                        <div class="sitemap-footer__spollers-item">
+                            <button class="sitemap-footer__spollers-title" type=" button" data-spoller>Sitemap</button>
+                            <div class="sitemap-footer__spollers-body">
+                                <nav class="sitemap-footer__sub">
+                                    <ul class="sitemap-footer__sub-list">
+                                        <li class="sitemap-footer__sub-item">
+                                            <a class="sitemap-footer__sub-link" href="#">News</a>
+                                        </li>
+                                        <li class="sitemap-footer__sub-item">
+                                            <a class="sitemap-footer__sub-link" href="#">Media</a>
+                                        </li>
+                                        <li class="sitemap-footer__sub-item">
+                                            <a class="sitemap-footer__sub-link" href="#">Dealers</a>
+                                        </li>
+                                        <li class="sitemap-footer__sub-item">
+                                            <a class="sitemap-footer__sub-link" href="#">Artists</a>
+                                        </li>
+                                        <li class="sitemap-footer__sub-item">
+                                            <a class="sitemap-footer__sub-link" href="#">Community</a>
+                                        </li>
+                                        <li class="sitemap-footer__sub-item">
+                                            <a class="sitemap-footer__sub-link" href="#">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__contacts contacts-footer">
+                    <nav class="contacts-footer__menu">
+                        <ul class="contacts-footer__menu-list">
+                            <li class="contacts-footer__menu-item">
+                                <a class="contacts-footer__phone _icon-phone" href="tel:8004238388"><span>(800)
+                                        423-8388</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="contacts-footer__email _icon-email"
+                                    href="mailto:sales@espguitars.com"><span>sales@espguitars.com</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="contacts-footer__social social-footer">
+                        <li class="social-footer__item">
+                            <a class="social-footer__link _icon-instagram" href="#"></a>
+                        </li>
+                        <li class="social-footer__item">
+                            <a class="social-footer__link _icon-facebook" href="#"></a>
+                        </li>
+                        <li class="social-footer__item">
+                            <a class="social-footer__link _icon-youtube" href="#"></a>
+                        </li>
+                        <li class="social-footer__item">
+                            <a class="social-footer__link _icon-twitter" href="#"></a>
+                        </li>
+                    </ul>
+                    <a class="scroll-up" href="#header">
+                        <img src="img/icon/scroll-up.svg" alt="Scroll Up">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copy">
+        <p>©2021 The ESP Guitar Company</p>
+    </div>
+</footer>
+    </div>
+
+    <div class="popup-cart popup" id="popup-cart">
+    <div class="popup-cart__wrapper wrapper">
+        <div class="popup-cart__body">
+            <div class="popup-cart__content popup__content">
+                <button class="popup-cart__btn-close close-popup"></button>
+                <div class="popup-cart__title">Items in your cart</div>
+                <div class="popup-cart__body body-popup-cart">
+                    <div class="body-popup-cart__item item-popup-cart">
+                        <a class="item-popup-cart__images-ibg item-popup-cart__images-ibg_contain" href="#">
+                            <picture><source srcset="img/cart-page/01.webp" type="image/webp"><img src="img/cart-page/01.png" alt="Картинка"></picture>
+                        </a>
+                        <div class="item-popup-cart__content">
+                            <div class="item-popup-cart__inner">
+                                <a class="item-popup-cart__title" href="#">Will Adler Warbird
+                                    Distressed</a>
+                                <div class="item-popup-cart__text">Black w/Graphic</div>
+                            </div>
+                            <div class="item-popup-cart__price">$3,500</div>
+                        </div>
+                        <div class="item-popup-cart__qty qty-order">
+                            <div class="qty-order quantity">
+                                <button class="quantity__button quantity__button_minus _icon-minus"
+                                    type="button"></button>
+                                <div class="quantity__input">
+                                    <input autocomplete="off" type="text" name="form[]" value="1">
+                                </div>
+                                <button class="quantity__button quantity__button_plus _icon-plus"
+                                    type="button"></button>
+                            </div>
+                        </div>
+                        <div class="item-popup-cart__total">
+                            <div class="item-popup-cart__total-price">$3,500</div>
+                            <div class="item-popup-cart__button _icon-del"></div>
+                        </div>
+                    </div>
+                    <div class="body-popup-cart__item item-popup-cart">
+                        <a class="item-popup-cart__images-ibg item-popup-cart__images-ibg_contain" href="#">
+                            <picture><source srcset="img/cart-page/02.webp" type="image/webp"><img src="img/cart-page/02.png" alt="Картинка"></picture>
+                        </a>
+                        <div class="item-popup-cart__content">
+                            <div class="item-popup-cart__inner">
+                                <a class="item-popup-cart__title" href="#">Richter Will Adler Signature</a>
+                                <div class="item-popup-cart__text">Black / gold</div>
+                            </div>
+                            <div class="item-popup-cart__price">$110</div>
+                        </div>
+                        <div class="item-popup-cart__qty qty-order">
+                            <div class="qty-order quantity">
+                                <button class="quantity__button quantity__button_minus _icon-minus"
+                                    type="button"></button>
+                                <div class="quantity__input">
+                                    <input autocomplete="off" type="text" name="form[]" value="1">
+                                </div>
+                                <button class="quantity__button quantity__button_plus _icon-plus"
+                                    type="button"></button>
+                            </div>
+                        </div>
+                        <div class="item-popup-cart__total">
+                            <div class="item-popup-cart__total-price">$220</div>
+                            <div class="item-popup-cart__button _icon-del"></div>
+                        </div>
+                    </div>
+                    <div class="body-popup-cart__item item-popup-cart">
+                        <a class="item-popup-cart__images-ibg item-popup-cart__images-ibg_contain" href="#">
+                            <picture><source srcset="img/cart-page/03.webp" type="image/webp"><img src="img/cart-page/03.png" alt="Картинка"></picture>
+                        </a>
+                        <div class="item-popup-cart__content">
+                            <div class="item-popup-cart__inner">
+                                <a class="item-popup-cart__title" href="#">KH-602</a>
+                                <div class="item-popup-cart__text">Black</div>
+                            </div>
+                            <div class="item-popup-cart__price">$2,800</div>
+                        </div>
+                        <div class="item-popup-cart__qty qty-order">
+                            <div class="qty-order quantity">
+                                <button class="quantity__button quantity__button_minus _icon-minus"
+                                    type="button"></button>
+                                <div class="quantity__input">
+                                    <input autocomplete="off" type="text" name="form[]" value="1">
+                                </div>
+                                <button class="quantity__button quantity__button_plus _icon-plus"
+                                    type="button"></button>
+                            </div>
+                        </div>
+                        <div class="item-popup-cart__total">
+                            <div class="item-popup-cart__total-price">$2,800</div>
+                            <div class="item-popup-cart__button _icon-del"></div>
+                        </div>
+                    </div>
+                    <div class="body-popup-cart__item item-popup-cart">
+                        <a class="item-popup-cart__images-ibg item-popup-cart__images-ibg_contain" href="#">
+                            <picture><source srcset="img/cart-page/04.webp" type="image/webp"><img src="img/cart-page/04.png" alt="Картинка"></picture>
+                        </a>
+                        <div class="item-popup-cart__content">
+                            <div class="item-popup-cart__inner">
+                                <a class="item-popup-cart__title" href="#">Cabloader</a>
+                                <div class="item-popup-cart__text">Silver</div>
+                            </div>
+                            <div class="item-popup-cart__price">$500</div>
+                        </div>
+                        <div class="item-popup-cart__qty qty-order">
+                            <div class="qty-order quantity">
+                                <button class="quantity__button quantity__button_minus _icon-minus"
+                                    type="button"></button>
+                                <div class="quantity__input">
+                                    <input autocomplete="off" type="text" name="form[]" value="1">
+                                </div>
+                                <button class="quantity__button quantity__button_plus _icon-plus"
+                                    type="button"></button>
+                            </div>
+                        </div>
+                        <div class="item-popup-cart__total">
+                            <div class="item-popup-cart__total-price">$1,500</div>
+                            <div class="item-popup-cart__button _icon-del"></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="popup-cart__button button" href="cart.html">Proceed to checkout</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup-review__bg popup-two__bg">
+    <div class="popup-review popup-two">
+        <button class="popup-review__btn-close close-popup-two"></button>
+        <div class="popup-review__wrapper">
+            <div class="popup-review__title">Add your review</div>
+            <div class="popup-review__rating rating rating_set">
+                <div class="popup-review__body rating__body">
+                    <div class="popup-review__active rating__active"></div>
+                    <div class="popup-review__items rating__items">
+                        <input class="popup-review__item rating__item" type="radio" value="1" name="rating">
+                        <input class="popup-review__item rating__item" type="radio" value="2" name="rating">
+                        <input class="popup-review__item rating__item" type="radio" value="3" name="rating">
+                        <input class="popup-review__item rating__item" type="radio" value="4" name="rating">
+                        <input class="popup-review__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                </div>
+                <div class="popup-review__value rating__value">0</div>
+            </div>
+            <form class="popup-review__form form-popup-review">
+                <div class="form-popup-review__inner">
+                    <label class="form-popup-review__field">
+                        <input class="form-popup-review__input" type="text">
+                        <span class="form-popup-review__placeholder">Name</span>
+                    </label>
+                    <label class="form-popup-review__field">
+                        <input class="form-popup-review__input" type="text">
+                        <span class="form-popup-review__placeholder">Email address</span>
+                    </label>
+                </div>
+                <label class="form-popup-review__field">
+                    <textarea class="form-popup-review__area"></textarea>
+                    <span class="form-popup-review__placeholder form-popup-review__placeholder_area">Your message</span>
+                </label>
+                <button class="form-popup-review__btn button" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220319124631"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/app.min.js?_v=20220319124631"></script>
+</body>
+
+</html>
